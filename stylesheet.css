@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Frame {
+    border-radius: 15px;
+    width: 260px;
+    height: 140px;
+    border: 6px solid #404040;
+    background: #000;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    width: 50px;
+    height: 30px;
+    justify-content: center;
+    flex-shrink: 1;
+    align-items: center;
+
+    border-radius: 5px;
+    border: 2px solid #CCC;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Svetla {
+    background: #2D29CF;
+}
+
+.Normal {
+    background: #505050;
+}
+
+.Direction {
+    background: #FFA600;
+    color: #000;
+}
+
+.Info {
+    background: #BB0606;
+}
+
+embed { display: none; }
+button:active + embed { display: block; }
